@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background: #dfdfdf;
+}
+.Container{
+    /* text-align: center; */
+    background-color: #f0f8ff;
+    width: 300px;
+   padding: 20px;
+   margin: 0 auto;
+    margin-top: 40px;
+   border-radius: 4px;
+   
+    
+}
+form{
+    display: inline-block;
+}
+
+p{
+    font-style: italic;
+}
+input{
+    padding: 5px 15px 4px 5px;
+}
+
+#button{
+    margin-top:10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #791740;
+    color: #f0f8ff;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 17px;
+    text-align: center;
+
+}
+#button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+ol{
+    padding-left: 20px;
+}
+ol li{
+    padding: 5px;
+    color: #0a0a0a;
+}
+ol li:nth-child(even){
+    background-color:#a9acaff5 ;
+}
+.strike{
+    text-decoration: line-through;
+}
+li:hover{
+    cursor: pointer;
+}
+.delete {
+	display: none;
+}
+li > button {
+    background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+    cursor: pointer;
+}
